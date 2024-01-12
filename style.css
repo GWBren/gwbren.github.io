@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.space {
+    margin-left: 15px;
+}
+
+.button {
+    margin: 10px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+}
+
+#heading .button {
+    color: black;
+    margin: 2px;
+    padding: 10px 10px;
+    background-color: tomato;
+}
+
+#heading h1{
+    font-family: Tahoma;  
+}
+ 
+#heading {
+    background-image: url("./img/image.jpg");
+    background-size: cover;
+}
+
+body {
+    background-color: azure;
+    border: 1px solid white;
+    font-size: 25px;
+    text-align: center;
+}
+body a {
+    color: violet;
+    font-weight: bold;
+}
+
+body a:hover {
+    color: darkorchid;
+    font-weight: bold;
+}
+
+body li {
+    margin: 2px;
+    padding: 2px 10px;
+    color: lightcoral;
+    list-style: circle;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+#currentproj .button {
+    margin: 10px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    right: 750px;
+}
+
+#currentproj{
+    margin: 2px;
+    padding: 2px 10px;
+    font-weight: bold;
+    color:bisque;
+    text-align: center;
+    background-color: azure;
+}
+
+#currentproj li {
+    color: lightcoral;
+    list-style: circle;
+    text-align: center;
+    list-style-position: inside;
+    position: relative;
+    right: 750px;
+}
+
+#information {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: bisque;
+    background-color: azure;
+}
+
+#information .button {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    right: 200px;
+}
+
+#information .ibutton {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    right: 500px;
+}
+
+#information .next li {
+    position: relative;
+    left: 100px;
+    bottom: 165px;
+}
+#information .tbutton {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    left: 100px;
+    bottom: 165px;
+}
+
+#information p {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 15px;
+    color: lightcoral;
+    display: inline-block;
+    height: 20px;
+    width: 500px;
+    position: relative;
+    right: 500px;
+
+}
+
+#information li{
+    position: relative;
+    right: 200px;
+}
+
+#information h1{
+    font-family: Tahoma;
+    color: lightcoral;
+    text-align: center;
+}
+
+
+#foot {
+    color:lightcoral;
+    background-image: url("./img/image.jpg");
+
+    background-size: cover;
+}
+
+#foot .button {
+    color: black;
+    background-color: tomato;
+    font-weight: bold;    
+}
