@@ -1,0 +1,227 @@
+* {
+    color: seashell;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/*.pers {
+    background-color: antiquewhite;
+}
+
+.hob {
+    background-color: aqua;
+}*/
+
+.hob {
+    margin-top: 5px;
+}
+
+.pers {
+    margin-top: 5px;
+}
+
+.space {
+    margin-left: 15px;
+}
+.nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 1px solid lightcoral;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.button {
+    margin: 10px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 25px;
+    display: inline;
+}
+
+#heading .button {
+    color: black;
+    margin: 5px;
+    padding: 10px 10px;
+    background-color: tomato;
+}
+
+#about .button {
+    margin: 20px;
+    padding: 1px 10px;
+    background-color: black;
+}
+#about .button:hover {
+    margin: 15px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+#about h1 {
+    border: 5px solid black;
+}
+
+#heading h1{
+    font-family: Tahoma;  
+}
+ 
+#heading {
+    background-color: black;
+    background-size: cover;
+}
+
+#about h1{
+    display: inline-block;
+    padding: 1px 50px;
+    background-color: blueviolet;
+}
+
+
+a {
+    color: lightcoral;
+}
+
+#information a:hover {
+    color: rgb(158, 84, 84);
+}
+
+body li {
+    margin: 0 auto;
+    padding: 1px 1px;
+    color: seashell;
+    list-style: circle;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 15px;
+    font-family: Georgia;
+}
+
+#currentproj .button {
+    margin: 10px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+}
+
+#currentproj{
+    margin: 0 auto;
+    padding: 1px 1px;
+    font-weight: bold;
+    color:bisque;
+    text-align: center;
+    background-color: black;
+}
+
+
+
+#information {
+    margin: 0 auto;
+    padding: 0px 0px;
+    font-family: Tahoma;
+    color: bisque;
+    background-color: black;
+}
+
+
+
+#information h1{
+    font-family: Tahoma;
+    color: seashell;
+    text-align: center;
+}
+
+
+#information ul {
+    height: auto; 
+    width: 325px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#information p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px 3px;
+    font-family: Georgia;
+    text-align: center;
+    font-size: 15px;
+    color: seashell;
+    display: inline-block;
+    height: 20px;
+    width: 500px;
+}
+
+#information .tlist {
+    position: absolute;
+    left: 62.5%;
+    top: 40%;
+    width: 500px;
+    
+}
+
+.pers .button {
+    margin: 2px;
+    padding: 2px 10px;
+    font-family: Tahoma;
+    color: lightcoral;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 25px;
+    display: inline;
+}
+
+
+#foot {
+    color: seashell;
+    background-color: black;
+
+    background-size: cover;
+}
+
+#foot .button {
+    color: black;
+    background-color: tomato;
+    font-weight: bold;    
+}
+
+
+.button2 {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: grey;
+    transition: background-color 0.5s;
+}
+
+.button2:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.proj {
+    margin-top: 5px;
+}
+
